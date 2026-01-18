@@ -1,0 +1,171 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  height: 100%;
+}
+
+.bakery {
+  width: 100%;
+  height: 100vh;
+  background-image: url("bakery.jpg");
+  background-size: cover;      /* fills screen, no gaps */
+  background-position: center; /* keeps focus centered */
+  background-repeat: no-repeat;
+}
+
+.leader1 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  background: #452829;
+  min-height: 60px;
+}
+
+
+.content1 {
+  width: 100%;
+  height: 500px;
+  background-color: #452829;
+  text-align: left;
+  align-content: center;
+  padding-left: 200px;
+  margin-top: -20px;
+  color: #F3E8DF;
+  font-size: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+h6 {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+
+.bread-img {
+  width: 500px;
+  height: 350px; 
+}
+
+.leader2 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  background: #452829;
+  min-height: 60px;
+}
+
+.content2 {
+  width: 100%;
+  height: 500px;
+  background-color: #452829;
+  text-align: left;
+  align-content: center;
+  padding-left: 200px;
+  margin-top: -20px;
+  color: #F3E8DF;
+  font-size: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+h6 {
+  font-size: 18px;
+  font-family: 'Arial', sans-serif;
+}
+
+.cake-img {
+  width: 500px;
+  height: 350px;
+  margin-left: 100px; 
+}
+
+.leader3 {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  background: #452829;
+  min-height: 60px;
+}
+
+.content3 {
+  width: 100%;
+  height: 500px;
+  background-color: #452829;
+  text-align: left;
+  align-content: center;
+  padding-left: 200px;
+  margin-top: -20px;
+  color: #F3E8DF;
+  font-size: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+.donut-img {
+  width: 500px;
+  height: 350px;
+}
+
+.leader4 {
+  display: flex;
+  flex-direction: row-reverse;
+  align-items: center;
+  gap: 40px;
+  padding: 40px;
+  position: relative;
+  background: #452829;
+  min-height: 60px;
+}
+
+.content4 {
+  width: 100%;
+  height: 500px;
+  background-color: #452829;
+  text-align: left;
+  align-content: center;
+  padding-left: 200px;
+  margin-top: -20px;
+  color: #F3E8DF;
+  font-size: 70px;
+  font-family: 'Lucida Handwriting', cursive;
+}
+
+.sausage_roll-img {
+  width: 500px;
+  height: 350px;
+  margin-left: 100px;
+}
+
+.footer {
+  width: 100%;
+  height: 200px;
+  background-color: #F3E8DF;
+  color: #452829;
+  text-align: center;
+  padding-top: 40px;
+  font-family: 'Arial', sans-serif;
+}
+
+.welcome-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-70%, -170%);
+  color: #222831
+}
+
+@media (max-width: 768px) {
+  body {
+    margin: 20px;
+  }
+
+  header h1 {
+    font-size: 24px;
+  }
+}
+
+
